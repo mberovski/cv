@@ -11,6 +11,11 @@ body {
     margin: 0;
 }
 
+header {
+    width: 100%;
+}
+
+
 h2 {
     margin: 0.5em 0;
 }
@@ -113,7 +118,7 @@ a:hover {
 }
 
 .skills {
-    margin-top: 200px;
+    margin-top: 230px;
 }
 
 .education {
