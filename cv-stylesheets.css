@@ -8,6 +8,7 @@ body {
     box-sizing: border-box;
     overflow-x: hidden;
     overflow-y: auto;
+    margin: 0;
 }
 
 h2 {
@@ -54,10 +55,13 @@ a:hover {
     position: fixed;
     top: 0;
     margin: 0 auto;
-    align-content: center;
+    align-items: center;
     padding-top: 30px;
-    z-index: 1000;
+    z-index: 2;
+    -webkit-box-shadow: 5px 16px 25px -3px rgba(0,0,0,0.15); 
 }
+
+
 
 .coordinates-left {
     margin-right: 150px;
@@ -187,7 +191,7 @@ input:checked + label + .accordion-content {
         position: fixed;
         top: 0;
         margin: 0 auto;
-        align-content: center;
+        align-items: center;
         padding-top: 25px;
         width: inherit;
     }
@@ -209,10 +213,7 @@ input:checked + label + .accordion-content {
     .skills {
         margin-top: 320px;
     }
-    /* .ul-courses li {
-        display: flex;
-
-    } */
+    
 
     .wrapper {
         width: inherit;
