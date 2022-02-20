@@ -15,7 +15,6 @@ header {
     width: 100%;
 }
 
-
 h2 {
     margin: 0.5em 0;
 }
@@ -44,7 +43,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center; 
+    align-items: center;
 }
 
 .wrapper {
@@ -63,10 +62,8 @@ a:hover {
     align-items: center;
     padding-top: 30px;
     z-index: 2;
-    -webkit-box-shadow: 5px 16px 25px -3px rgba(0,0,0,0.15); 
+    -webkit-box-shadow: 5px 16px 25px -3px rgba(0, 0, 0, 0.15);
 }
-
-
 
 .coordinates-left {
     margin-right: 150px;
@@ -149,6 +146,12 @@ p.entity-name {
     letter-spacing: 0.1em;
 }
 
+.small {
+    margin-top: 2em;
+    font-size: .8em;
+    font-style: italic;
+}
+
 /* Accordion */
 
 .accordion-input-hidden {
@@ -169,8 +172,6 @@ input:checked + label + .accordion-content {
     font-size: 21px;
     transform: translate(0, 0);
 }
-
-
 
 .accordion-question::after {
     display: inline;
@@ -207,7 +208,7 @@ input:checked + label + .accordion-content {
 
     .ul-courses li {
         display: block;
-        width: 100%
+        width: 100%;
     }
 
     .flex {
@@ -218,7 +219,6 @@ input:checked + label + .accordion-content {
     .skills {
         margin-top: 320px;
     }
-    
 
     .wrapper {
         width: inherit;
